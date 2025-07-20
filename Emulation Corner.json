@@ -3,8 +3,7 @@
   "subtitle": "A source for a bunch of popular emulators.",
   "description": "Welcome to Emulation Corner! Here you'll find a bunch of popular emulators such as Folium, MeloNX and DolphiniOS. JIT is not required, but recommended. An option for JIT can be AltJIT or using StickDebug from the App Store.",
   "iconURL": "https://i.imgur.com/YHMQM1A.png",
-  "website": "https://github.com/",
-  "patreonURL": "",
+  "website": "https://github.com/JedwardT/Emulation-Corner-AltStore-Source/",
   "tintColor": "#4e8a84",
   "featuredApps": [
     "com.antique.Folium-iOS",
