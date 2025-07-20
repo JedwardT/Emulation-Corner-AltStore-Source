@@ -1,0 +1,264 @@
+{
+  "name": "Emulation Corner",
+  "subtitle": "A source for a bunch of popular emulators.",
+  "description": "Welcome to Emulation Corner! Here you'll find a bunch of popular emulators such as Folium, MeloNX and DolphiniOS. JIT is not required, but recommended. An option for JIT can be AltJIT or using StickDebug from the App Store.",
+  "iconURL": "https://i.imgur.com/YHMQM1A.png",
+  "website": "https://github.com/",
+  "patreonURL": "",
+  "tintColor": "#4e8a84",
+  "featuredApps": [
+    "com.antique.Folium-iOS",
+    "com.stossy11.MeloNX",
+    "me.oatmealdome.DolphiniOS-njb",
+    "me.oatmealdome.DolphiniOS-njb-patreon-beta"
+  ],
+  "headerURL": "https://i.imgur.com/OHAKuG5.png",
+  "apps": [
+    {
+      "name": "UTM SE",
+      "bundleIdentifier": "com.utmapp.UTM-SE",
+      "marketplaceID": "",
+      "developerName": "osy",
+      "subtitle": "Virtual machines for iOS (with JIT support)",
+      "localizedDescription": "UTM is a full featured virtual machine host for iOS. In short, it allows you to run Windows, Android, and more on your iPhone and iPad. This version runs on all iOS 14+ devices but lacks JIT support and is all slower than regular UTM.\n\n\nMore information at https://getutm.app/\n\nFeatures:\n\nEmulate any Processor\n30+ processors supported by qemu including x86_64, ARM64, and RISC-V\nRun any Operating System\nWindows, Linux, and more natively and securely on iOS within an App\nFast Emulation\nPara-virtualization with SPICE and JIT compilation with TCG\nHigh Compatibility\niOS 11+ supported. Works on iPhone and iPad. No jailbreak needed for iOS 11-13\nFree and Open Source\nUTM and its dependencies are all free and open source\nEasy to Use\nConfigure and customize your VM in a native UI",
+      "iconURL": "https://i.imgur.com/awD3jtd.png",
+      "tintColor": "#3c7cec",
+      "category": "other",
+      "screenshots": [],
+      "versions": [
+        {
+          "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.6.5/UTM-SE.ipa",
+          "size": 216500000,
+          "version": "4.6.5",
+          "buildVersion": null,
+          "date": "2025-07-20T21:47:00+01:00",
+          "localizedDescription": null,
+          "minOSVersion": null
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSAccentColorName": "AccentColor",
+          "NSLocalNetworkUsageDescription": "The virtual machine may access the local network. UTM may also use the network to communicate with local servers.",
+          "NSMicrophoneUsageDescription": "Permission is required for any virtual machine to record from the microphone."
+        }
+      },
+      "patreon": {}
+    },
+    {
+      "name": "UTM",
+      "bundleIdentifier": "com.utmapp.UTM",
+      "marketplaceID": "",
+      "developerName": "osy",
+      "subtitle": "Virtual machines for iOS (with JIT support)",
+      "localizedDescription": "UTM is a full featured virtual machine host for iOS. In short, it allows you to run Windows, Android, and more on your iPhone and iPad. This version requires using AltJIT. Install UTM SE for slower emulation without JIT.\n\n\nMore information at https://getutm.app/\n\nFeatures:\n\nEmulate any Processor\n30+ processors supported by qemu including x86_64, ARM64, and RISC-V\nRun any Operating System\nWindows, Linux, and more natively and securely on iOS within an App\nFast Emulation\nPara-virtualization with SPICE and JIT compilation with TCG\nHigh Compatibility\niOS 11+ supported. Works on iPhone and iPad. No jailbreak needed for iOS 11-13\nFree and Open Source\nUTM and its dependencies are all free and open source\nEasy to Use\nConfigure and customize your VM in a native UI",
+      "iconURL": "https://i.imgur.com/JzkYWfW.png",
+      "tintColor": "#3c7cec",
+      "category": "other",
+      "screenshots": [],
+      "versions": [
+        {
+          "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.6.5/UTM.ipa",
+          "size": 126200000,
+          "version": "4.6.5",
+          "buildVersion": null,
+          "date": "2025-07-20T21:45:00+01:00",
+          "localizedDescription": null,
+          "minOSVersion": null
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSAccentColorName": "AccentColor",
+          "NSLocalNetworkUsageDescription": "The virtual machine may access the local network. UTM may also use the network to communicate with local servers.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "UTM requests location data periodically to ensure the system keeps the background process active. Location data will never leave the device.",
+          "NSLocationAlwaysUsageDescription": "UTM requests location data periodically to ensure the system keeps the background process active. Location data will never leave the device.",
+          "NSLocationWhenInUseUsageDescription": "UTM requests location data periodically to ensure the system keeps the background process active. Location data will never leave the device.",
+          "NSMicrophoneUsageDescription": "Permission is required for any virtual machine to record from the microphone."
+        }
+      },
+      "patreon": {}
+    },
+    {
+      "name": "DolphiniOS",
+      "bundleIdentifier": "me.oatmealdome.DolphiniOS-njb",
+      "marketplaceID": "",
+      "developerName": "OatmealDome",
+      "subtitle": "Dolphin, now on iOS!",
+      "localizedDescription": "DolphiniOS is a GameCube and Wii emulator for iOS and iPadOS. All iOS versions starting with 14.0 are supported, and no jailbreak is required!",
+      "iconURL": "https://i.imgur.com/A6Tl4ZH.png",
+      "tintColor": "#54ccfc",
+      "category": "other",
+      "screenshots": [],
+      "versions": [
+        {
+          "downloadURL": "https://github.com/OatmealDome/dolphin/releases/download/3.2.1/DolphiniOS-NJB-3.2.1-213.ipa",
+          "size": 80300000,
+          "version": "3.2.1",
+          "buildVersion": null,
+          "date": "2025-07-20T21:38:00+01:00",
+          "localizedDescription": null,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSMotionUsageDescription": "DolphiniOS uses your device's accelerometer and gyroscope to emulate the Wii Remote's built-in accelerometer and gyroscope.",
+          "NSLocalNetworkUsageDescription": "DolphiniOS uses the local network to find and communicate with AltServer."
+        }
+      },
+      "patreon": {}
+    },
+    {
+      "name": "DolphiniOS Beta",
+      "bundleIdentifier": "me.oatmealdome.DolphiniOS-njb-patreon-beta",
+      "marketplaceID": "",
+      "developerName": "OatmealDome",
+      "subtitle": "Dolphin, now on iOS!",
+      "localizedDescription": "DolphiniOS is a GameCube and Wii emulator for iOS and iPadOS. All iOS versions starting with 14.0 are supported, and no jailbreak is required!",
+      "iconURL": "https://i.imgur.com/shUlBel.png",
+      "tintColor": "#f4d41e",
+      "category": "other",
+      "screenshots": [],
+      "versions": [
+        {
+          "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v4.0.0b8/Non-Jailbroken.ipa",
+          "size": 15800000,
+          "version": "4.0.0b8",
+          "buildVersion": null,
+          "date": "2025-07-20T21:27:00+01:00",
+          "localizedDescription": null,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "DolphiniOS uses the local network to find and communicate with AltServer."
+        }
+      },
+      "patreon": {}
+    },
+    {
+      "name": "MAME4iOS",
+      "bundleIdentifier": "com.example.mame4ios",
+      "marketplaceID": "",
+      "developerName": "yoshisuga",
+      "subtitle": "",
+      "localizedDescription": "Multiple Arcade Machine Emulator for iOS, iPadOS, tvOS, macOS (Catalyst)",
+      "iconURL": "https://i.imgur.com/0hdTyT4.png",
+      "tintColor": "#3676a2",
+      "category": "other",
+      "screenshots": [
+        "https://raw.githubusercontent.com/yoshisuga/MAME4iOS/master/README.images/screenshot-iphone-small.jpg"
+      ],
+      "versions": [
+        {
+          "downloadURL": "https://github.com/yoshisuga/MAME4iOS/releases/download/2022.5/MAME4iOS-2022.5-250.ipa",
+          "size": 107700000,
+          "version": "2022.5",
+          "buildVersion": null,
+          "date": "2025-07-20T20:50:00+01:00",
+          "localizedDescription": "Updated to MAME 250.\ntvOS UX: use a Alert instead of a inline Segmented Control.\nShow upload feedback in Web Server UX.\nAdded Make First Favorite to game context menu.",
+          "minOSVersion": null
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "We need bluetooth for steam controllers"
+        }
+      },
+      "patreon": {}
+    },
+    {
+      "name": "MeloNX",
+      "bundleIdentifier": "com.stossy11.MeloNX",
+      "marketplaceID": "",
+      "developerName": "Stossy11",
+      "subtitle": "The most advanced NX emulator for iOS.",
+      "localizedDescription": "This is an awesome app only available on AltStore.",
+      "iconURL": "https://i.imgur.com/x6Pilo3.png",
+      "tintColor": "#6a4cc7",
+      "category": "other",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "2.0.1",
+          "date": "2025-07-14T17:30:00+01:00",
+          "localizedDescription": "What's New\n\nUE Games: Fixes the bug in the last release that causes Unreal Engine games to show a black screen or have colour issues.\nVirtual Controller Button: Fixes bug where buttons don't properly register clicks.\nLaunch Crash: Fixes the bug where the app crashes on any game launch with System.PlatformNotSupportedException\nFix TimeZones: Fixes the bug where time in-games aren't reflected properly",
+          "downloadURL": "https://git.ryujinx.app/melonx/emu/-/package_files/591/download",
+          "size": 61000000,
+          "buildVersion": null,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSPhotoLibraryAddUsageDescription": "MeloNX needs access to your Photo Library in order to save images"
+        }
+      },
+      "patreon": {}
+    },
+    {
+      "name": "Folium",
+      "bundleIdentifier": "com.antique.Folium-iOS",
+      "marketplaceID": "",
+      "developerName": "Jarrod Norwell",
+      "subtitle": "Folium, a multi-system emulation app.",
+      "localizedDescription": "Beautifully designed, high performing multi-system emulation in the palm of your hands.",
+      "iconURL": "https://i.imgur.com/s9turce.png",
+      "tintColor": "#2cd444",
+      "category": "other",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "2.0.1",
+          "date": "2025-07-14T17:30:00+01:00",
+          "localizedDescription": "What's New\n\nUE Games: Fixes the bug in the last release that causes Unreal Engine games to show a black screen or have colour issues.\nVirtual Controller Button: Fixes bug where buttons don't properly register clicks.\nLaunch Crash: Fixes the bug where the app crashes on any game launch with System.PlatformNotSupportedException\nFix TimeZones: Fixes the bug where time in-games aren't reflected properly",
+          "downloadURL": "https://git.ryujinx.app/melonx/emu/-/package_files/591/download",
+          "size": 61000000,
+          "buildVersion": null,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.20",
+          "date": "2025-04-29T17:30:00+01:00",
+          "localizedDescription": "Added\n\n(Cytrus) Added Azahar settings to the settings screen\n(Cytrus) Added support for the left and right rear cameras\nLeft uses Telephoto, right uses Wide (Main)\n(Cytrus) Added a new screen for multiplayer rooms\n(Lychee) Added support for booting exe files\nThese are mainly used for testing PlayStation 1 emulators\n\nChanged\n\nChanged the layout of the import games and settings menus\n(All) Changed skins so they actually work with Nintendo and PlayStation button names\n(All) Changed how emulation notifications are handled for application state and controller connections\n(Cytrus) Changed the core from Cytrus to CytrusAzahar\n(Cytrus) Changed how the settings screen is handled\n(Cytrus) Changed how multiplayer rooms are handled\n(Grape) Changed how the settings screen is handled\n\nFixed\n\n(All) Fixed an issue where changing orientation would remove the settings button's menu\n(Lychee) Fixed an issue where rendering would be broken when in 24-bit mode\nThis mainly affects MDEC videos\n(Lychee) Fixed a crash related to the RGB24 rendering mode",
+          "downloadURL": "https://github.com/emuplace/folium.emuplace.app/releases/download/v1.20/folium-sideload-v1.20.ipa.zip",
+          "size": 24800000,
+          "buildVersion": null,
+          "minOSVersion": null
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSAccentColorName": "AccentColor",
+          "NSBluetoothAlwaysUsageDescription": "Folium uses Bluetooth when connecting to controllers and gamepads",
+          "NSCameraUsageDescription": "Folium uses your devices camera for certain functionality within its cores",
+          "NSMicrophoneUsageDescription": "Folium uses your devices microphone for certain functionality within its cores",
+          "NSMotionUsageDescription": "Folium uses your devices motion data for some core functionality such as step count in Cytrus"
+        }
+      },
+      "patreon": {}
+    }
+  ],
+  "news": [
+    {
+      "title": "Emulation Corner first release!",
+      "identifier": "news_vfhffo8f04",
+      "caption": "Emulation corner has been released. Some of its featured apps include Folium, MeloNX and DolphiniOS!",
+      "date": "2025-07-20T20:25",
+      "tintColor": "#56dae2",
+      "imageURL": "",
+      "notify": false,
+      "url": "",
+      "appID": null
+    }
+  ]
+}
