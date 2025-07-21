@@ -142,38 +142,6 @@
       "patreon": {}
     },
     {
-      "name": "MAME4iOS",
-      "bundleIdentifier": "com.example.mame4ios",
-      "marketplaceID": "",
-      "developerName": "yoshisuga",
-      "subtitle": "",
-      "localizedDescription": "Multiple Arcade Machine Emulator for iOS, iPadOS, tvOS, macOS (Catalyst)",
-      "iconURL": "https://i.imgur.com/0hdTyT4.png",
-      "tintColor": "#3676a2",
-      "category": "other",
-      "screenshots": [
-        "https://raw.githubusercontent.com/yoshisuga/MAME4iOS/master/README.images/screenshot-iphone-small.jpg"
-      ],
-      "versions": [
-        {
-          "downloadURL": "https://github.com/yoshisuga/MAME4iOS/releases/download/2022.5/MAME4iOS-2022.5-250.ipa",
-          "size": 107700000,
-          "version": "2022.5",
-          "buildVersion": "1",
-          "date": "2022-12-12T18:30:00+00:00",
-          "localizedDescription": "Updated to MAME 250.\ntvOS UX: use a Alert instead of a inline Segmented Control.\nShow upload feedback in Web Server UX.\nAdded Make First Favorite to game context menu.",
-          "minOSVersion": null
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {
-          "NSBluetoothAlwaysUsageDescription": "We need bluetooth for steam controllers"
-        }
-      },
-      "patreon": {}
-    },
-    {
       "name": "MeloNX",
       "bundleIdentifier": "com.stossy11.MeloNX",
       "marketplaceID": "",
