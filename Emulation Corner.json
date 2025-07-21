@@ -254,9 +254,9 @@
       "caption": "Emulation corner has been released. Some of its featured apps include Folium, MeloNX and DolphiniOS!",
       "date": "2025-07-21T11:00",
       "tintColor": "#56dae2",
-      "imageURL": "",
+      "imageURL": null,
       "notify": false,
-      "url": "",
+      "url": "https://github.com/JedwardT/Emulation-Corner-AltStore-Source",
       "appID": null
     }
   ]
