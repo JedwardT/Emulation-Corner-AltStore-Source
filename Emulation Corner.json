@@ -14,6 +14,73 @@
   "headerURL": "https://i.imgur.com/OHAKuG5.png",
   "apps": [
     {
+      "name": "UTM SE",
+      "bundleIdentifier": "com.utmapp.UTM-SE",
+      "marketplaceID": "",
+      "developerName": "osy",
+      "subtitle": "Virtual machines for iOS (with JIT support)",
+      "localizedDescription": "UTM is a full featured virtual machine host for iOS. In short, it allows you to run Windows, Android, and more on your iPhone and iPad. This version runs on all iOS 14+ devices but lacks JIT support and is all slower than regular UTM.\n\n\nMore information at https://getutm.app/\n\nFeatures:\n\nEmulate any Processor\n30+ processors supported by qemu including x86_64, ARM64, and RISC-V\nRun any Operating System\nWindows, Linux, and more natively and securely on iOS within an App\nFast Emulation\nPara-virtualization with SPICE and JIT compilation with TCG\nHigh Compatibility\niOS 11+ supported. Works on iPhone and iPad. No jailbreak needed for iOS 11-13\nFree and Open Source\nUTM and its dependencies are all free and open source\nEasy to Use\nConfigure and customize your VM in a native UI",
+      "iconURL": "https://i.imgur.com/awD3jtd.png",
+      "tintColor": "#3c7cec",
+      "category": "other",
+      "screenshots": [],
+      "versions": [
+        {
+          "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.6.5/UTM-SE.ipa",
+          "size": 216500000,
+          "version": "4.6.5",
+          "buildVersion": "1",
+          "date": "2025-07-20T21:47:00+01:00",
+          "localizedDescription": null,
+          "minOSVersion": null
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSAccentColorName": "AccentColor",
+          "NSLocalNetworkUsageDescription": "The virtual machine may access the local network. UTM may also use the network to communicate with local servers.",
+          "NSMicrophoneUsageDescription": "Permission is required for any virtual machine to record from the microphone."
+        }
+      },
+      "patreon": {}
+    },
+    {
+      "name": "UTM",
+      "bundleIdentifier": "com.utmapp.UTM",
+      "marketplaceID": "",
+      "developerName": "osy",
+      "subtitle": "Virtual machines for iOS (with JIT support)",
+      "localizedDescription": "UTM is a full featured virtual machine host for iOS. In short, it allows you to run Windows, Android, and more on your iPhone and iPad. This version requires using AltJIT. Install UTM SE for slower emulation without JIT.\n\n\nMore information at https://getutm.app/\n\nFeatures:\n\nEmulate any Processor\n30+ processors supported by qemu including x86_64, ARM64, and RISC-V\nRun any Operating System\nWindows, Linux, and more natively and securely on iOS within an App\nFast Emulation\nPara-virtualization with SPICE and JIT compilation with TCG\nHigh Compatibility\niOS 11+ supported. Works on iPhone and iPad. No jailbreak needed for iOS 11-13\nFree and Open Source\nUTM and its dependencies are all free and open source\nEasy to Use\nConfigure and customize your VM in a native UI",
+      "iconURL": "https://i.imgur.com/JzkYWfW.png",
+      "tintColor": "#3c7cec",
+      "category": "other",
+      "screenshots": [],
+      "versions": [
+        {
+          "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.6.5/UTM.ipa",
+          "size": 126200000,
+          "version": "4.6.5",
+          "buildVersion": "1",
+          "date": "2025-07-20T21:45:00+01:00",
+          "localizedDescription": null,
+          "minOSVersion": null
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSAccentColorName": "AccentColor",
+          "NSLocalNetworkUsageDescription": "The virtual machine may access the local network. UTM may also use the network to communicate with local servers.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "UTM requests location data periodically to ensure the system keeps the background process active. Location data will never leave the device.",
+          "NSLocationAlwaysUsageDescription": "UTM requests location data periodically to ensure the system keeps the background process active. Location data will never leave the device.",
+          "NSLocationWhenInUseUsageDescription": "UTM requests location data periodically to ensure the system keeps the background process active. Location data will never leave the device.",
+          "NSMicrophoneUsageDescription": "Permission is required for any virtual machine to record from the microphone."
+        }
+      },
+      "patreon": {}
+    },
+    {
       "name": "DolphiniOS",
       "bundleIdentifier": "me.oatmealdome.DolphiniOS-njb",
       "marketplaceID": "",
@@ -135,49 +202,6 @@
         }
       },
       "patreon": {}
-    },
-    {
-      "name": "Folium",
-      "bundleIdentifier": "com.antique.Folium-iOS",
-      "marketplaceID": "",
-      "developerName": "Jarrod Norwell",
-      "subtitle": "Folium, a multi-system emulation app.",
-      "localizedDescription": "Beautifully designed, high performing multi-system emulation in the palm of your hands.",
-      "iconURL": "https://i.imgur.com/s9turce.png",
-      "tintColor": "#2cd444",
-      "category": "other",
-      "screenshots": [],
-      "versions": [
-        {
-          "version": "2.0.1",
-          "date": "2025-07-14T17:30:00+01:00",
-          "localizedDescription": "What's New\n\nUE Games: Fixes the bug in the last release that causes Unreal Engine games to show a black screen or have colour issues.\nVirtual Controller Button: Fixes bug where buttons don't properly register clicks.\nLaunch Crash: Fixes the bug where the app crashes on any game launch with System.PlatformNotSupportedException\nFix TimeZones: Fixes the bug where time in-games aren't reflected properly",
-          "downloadURL": "https://git.ryujinx.app/melonx/emu/-/package_files/591/download",
-          "size": 61000000,
-          "buildVersion": "1",
-          "minOSVersion": "14.0"
-        },
-        {
-          "version": "1.20",
-          "date": "2025-04-29T17:30:00+01:00",
-          "localizedDescription": "Added\n\n(Cytrus) Added Azahar settings to the settings screen\n(Cytrus) Added support for the left and right rear cameras\nLeft uses Telephoto, right uses Wide (Main)\n(Cytrus) Added a new screen for multiplayer rooms\n(Lychee) Added support for booting exe files\nThese are mainly used for testing PlayStation 1 emulators\n\nChanged\n\nChanged the layout of the import games and settings menus\n(All) Changed skins so they actually work with Nintendo and PlayStation button names\n(All) Changed how emulation notifications are handled for application state and controller connections\n(Cytrus) Changed the core from Cytrus to CytrusAzahar\n(Cytrus) Changed how the settings screen is handled\n(Cytrus) Changed how multiplayer rooms are handled\n(Grape) Changed how the settings screen is handled\n\nFixed\n\n(All) Fixed an issue where changing orientation would remove the settings button's menu\n(Lychee) Fixed an issue where rendering would be broken when in 24-bit mode\nThis mainly affects MDEC videos\n(Lychee) Fixed a crash related to the RGB24 rendering mode",
-          "downloadURL": "https://github.com/emuplace/folium.emuplace.app/releases/download/v1.20/folium-sideload-v1.20.ipa.zip",
-          "size": 24800000,
-          "buildVersion": "1",
-          "minOSVersion": null
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {
-          "NSAccentColorName": "AccentColor",
-          "NSBluetoothAlwaysUsageDescription": "Folium uses Bluetooth when connecting to controllers and gamepads",
-          "NSCameraUsageDescription": "Folium uses your devices camera for certain functionality within its cores",
-          "NSMicrophoneUsageDescription": "Folium uses your devices microphone for certain functionality within its cores",
-          "NSMotionUsageDescription": "Folium uses your devices motion data for some core functionality such as step count in Cytrus"
-        }
-      },
-      "patreon": {}
     }
   ],
   "news": [
@@ -185,7 +209,7 @@
       "title": "Emulation Corner first release!",
       "identifier": "news_vfhffo8f04",
       "caption": "Emulation corner has been released. Some of its featured apps include Folium, MeloNX and DolphiniOS!",
-      "date": "2025-07-21T11:00",
+      "date": "2025-07-21T14:50",
       "tintColor": "#56dae2",
       "imageURL": null,
       "notify": false,
