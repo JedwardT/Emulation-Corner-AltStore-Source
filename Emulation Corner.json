@@ -29,6 +29,7 @@
           "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.6.5/UTM-SE.ipa",
           "size": 216500000,
           "version": "4.6.5",
+          "buildVersion": "1",
           "date": "2025-07-20T21:47:00+01:00",
           "localizedDescription": null,
           "minOSVersion": null
@@ -60,6 +61,7 @@
           "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.6.5/UTM.ipa",
           "size": 126200000,
           "version": "4.6.5",
+          "buildVersion": "1",
           "date": "2025-07-20T21:45:00+01:00",
           "localizedDescription": null,
           "minOSVersion": null
@@ -94,6 +96,7 @@
           "downloadURL": "https://github.com/OatmealDome/dolphin/releases/download/3.2.1/DolphiniOS-NJB-3.2.1-213.ipa",
           "size": 80300000,
           "version": "3.2.1",
+          "buildVersion": "1",
           "date": "2025-07-20T21:38:00+01:00",
           "localizedDescription": null,
           "minOSVersion": "14.0"
@@ -124,6 +127,7 @@
           "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v4.0.0b8/Non-Jailbroken.ipa",
           "size": 15800000,
           "version": "4.0.0b8",
+          "buildVersion": "1",
           "date": "2025-07-20T21:27:00+01:00",
           "localizedDescription": null,
           "minOSVersion": "14.0"
@@ -155,7 +159,8 @@
           "downloadURL": "https://github.com/yoshisuga/MAME4iOS/releases/download/2022.5/MAME4iOS-2022.5-250.ipa",
           "size": 107700000,
           "version": "2022.5",
-          "date": "2025-07-20T20:50:00+01:00",
+          "buildVersion": "1",
+          "date": "2022-12-12T18:30:00+00:00",
           "localizedDescription": "Updated to MAME 250.\ntvOS UX: use a Alert instead of a inline Segmented Control.\nShow upload feedback in Web Server UX.\nAdded Make First Favorite to game context menu.",
           "minOSVersion": null
         }
@@ -186,6 +191,7 @@
           "localizedDescription": "What's New\n\nUE Games: Fixes the bug in the last release that causes Unreal Engine games to show a black screen or have colour issues.\nVirtual Controller Button: Fixes bug where buttons don't properly register clicks.\nLaunch Crash: Fixes the bug where the app crashes on any game launch with System.PlatformNotSupportedException\nFix TimeZones: Fixes the bug where time in-games aren't reflected properly",
           "downloadURL": "https://git.ryujinx.app/melonx/emu/-/package_files/591/download",
           "size": 61000000,
+          "buildVersion": "1",
           "minOSVersion": "14.0"
         }
       ],
@@ -215,6 +221,7 @@
           "localizedDescription": "What's New\n\nUE Games: Fixes the bug in the last release that causes Unreal Engine games to show a black screen or have colour issues.\nVirtual Controller Button: Fixes bug where buttons don't properly register clicks.\nLaunch Crash: Fixes the bug where the app crashes on any game launch with System.PlatformNotSupportedException\nFix TimeZones: Fixes the bug where time in-games aren't reflected properly",
           "downloadURL": "https://git.ryujinx.app/melonx/emu/-/package_files/591/download",
           "size": 61000000,
+          "buildVersion": "1",
           "minOSVersion": "14.0"
         },
         {
@@ -223,6 +230,7 @@
           "localizedDescription": "Added\n\n(Cytrus) Added Azahar settings to the settings screen\n(Cytrus) Added support for the left and right rear cameras\nLeft uses Telephoto, right uses Wide (Main)\n(Cytrus) Added a new screen for multiplayer rooms\n(Lychee) Added support for booting exe files\nThese are mainly used for testing PlayStation 1 emulators\n\nChanged\n\nChanged the layout of the import games and settings menus\n(All) Changed skins so they actually work with Nintendo and PlayStation button names\n(All) Changed how emulation notifications are handled for application state and controller connections\n(Cytrus) Changed the core from Cytrus to CytrusAzahar\n(Cytrus) Changed how the settings screen is handled\n(Cytrus) Changed how multiplayer rooms are handled\n(Grape) Changed how the settings screen is handled\n\nFixed\n\n(All) Fixed an issue where changing orientation would remove the settings button's menu\n(Lychee) Fixed an issue where rendering would be broken when in 24-bit mode\nThis mainly affects MDEC videos\n(Lychee) Fixed a crash related to the RGB24 rendering mode",
           "downloadURL": "https://github.com/emuplace/folium.emuplace.app/releases/download/v1.20/folium-sideload-v1.20.ipa.zip",
           "size": 24800000,
+          "buildVersion": "1",
           "minOSVersion": null
         }
       ],
@@ -244,7 +252,7 @@
       "title": "Emulation Corner first release!",
       "identifier": "news_vfhffo8f04",
       "caption": "Emulation corner has been released. Some of its featured apps include Folium, MeloNX and DolphiniOS!",
-      "date": "2025-07-20T20:25",
+      "date": "2025-07-21T11:00",
       "tintColor": "#56dae2",
       "imageURL": "",
       "notify": false,
