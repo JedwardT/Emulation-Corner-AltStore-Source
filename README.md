@@ -1,4 +1,6 @@
 # Emulation Corner AltStore Source
+## NOTICE: This project is no longer available. You can put in the link below to altstore, but it does not work. If you are interested in helping me make it work, you can fork this repo.
+
 A source for AltStore that has a bunch of emulators included.
 
 To use this source, add this link as a source on AltStore: 
